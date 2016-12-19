@@ -41,7 +41,7 @@ var list = [1, 2, 3, 4, 5];
 // then `.reduce` to sum the doubled numbers
 // Set the answer to #answer in the DOM.
 
-//var list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 //Scope
 
