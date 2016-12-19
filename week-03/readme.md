@@ -1,3 +1,9 @@
+# Mechanical pt 1.
+
+The following questions are all available in main.js
+
+Solve them there as well!
+
 # Arrays
 
 Given the following array 
