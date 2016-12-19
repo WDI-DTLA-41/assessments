@@ -44,6 +44,8 @@ sayHello('Mer') // "Hello Mer!"
 
 
 
+
+
 ```
 
 Define a function `createRange` that takes `min` and `max` as parameters and returns an array with all the numbers
@@ -55,6 +57,8 @@ createRange(4, 8) // [4, 5, 6, 7, 8]
 ```
 
 ```
+
+
 
 
 
@@ -73,6 +77,10 @@ var list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 ```
 
 ```
+
+
+
+
 
 
 
