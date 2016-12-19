@@ -73,7 +73,9 @@ var list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 ```
 
 ```
+#Scopes
 
+Create a variable in the global scope called name, then write a function called thisName, and create another variable inside the function called name, and console.log name. What do you think the output would be?
 
 
 
