@@ -20,7 +20,7 @@ var user = {
   'hobbies': []
 };
 
-user.hobbies = 'golf';
+user.hobbies.push('golf');
 
 // Add 'golf' to the `user`'s `hobby` array.
 
@@ -47,7 +47,7 @@ var sayHello = function(name) {
 
 var createRange = function(min, max) {
     var range = [];
-    for(var i = min; i < max; i++) {
+    for(var i = min; i < max + 1; i++) {
     range.push(i);
   }
   return range;
