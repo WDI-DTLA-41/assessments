@@ -14,9 +14,9 @@ while (cursor !== 3) {
 }
 console.log(i);
 ```
-Prints: 0, 1, false, 3 (keeps going because there's no return statement to stop the function after i = 2).
 
 ```
+Prints: 0, 1, false, 3 (keeps going because there's no return statement to stop the function after i = 2).
 
 ```
 
@@ -73,14 +73,14 @@ console.log(greet("Liz"));
 What does 'this' refer to in the global scope?
 
 ```
-- The window 
+The window 
 
 ```
 
 What does 'this' refer to when a method on an object is invoked?
 
 ```
-- The current object the function is pointing to
+The current object the function is pointing to
 
 ```
 
@@ -139,7 +139,6 @@ console.log(cat);
 `console.log(dog)` will log  _mck_
 `console.log(fish)` will log _Hari_
 `console.log(cat)` will log  _undefined_
-
 ```
 
 # CSS _/1
