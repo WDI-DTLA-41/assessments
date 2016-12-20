@@ -35,7 +35,7 @@ function sayHello(name){
 function createRange(min, max){
   var array = [];
   for(var i=min; i<=max; i++){
-    array.push[i];
+    array.push(i);
   }
   return array;
 }
