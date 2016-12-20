@@ -19,6 +19,7 @@ var user = {name: 'margie', isAlive: true, hobbies:[]};
 
 // Add 'golf' to the `user`'s `hobby` array.
 user.hobbies = 'golf';
+hobbies.push = ['golf'];
 
 // # Functions
 
@@ -28,7 +29,8 @@ user.hobbies = 'golf';
 // sayHello('Mer') // "Hello Mer!"
 var sayHello = function(name) {
     return 'Hello ' + name + '!';
-}sayHello('Mer');
+}
+sayHello('Mer');
 
 // Define a function `createRange` that takes `min` and `max` as parameters and returns an array with all the numbers
 // between min MatMand max
@@ -37,20 +39,15 @@ var sayHello = function(name) {
 // createRange(4, 8) // [4, 5, 6, 7, 8]
 
 // min/max number in an array
-var createRange = [4, 5, 6, 7, 8];
 
-createRange = function() {
-for (var i = 0; i < createRange.length; i++) {
-  if (createRange[i] > max) {
-    max = createRange[i];
-  }
-  if (createRange[i] < min) {
-    min = createRange[i];
-  }
-}return createRange;
-}
-
-
+function createRange (min,max) {
+    range = [];
+    for (var i = min; i <= max; i++) {
+      range.push(i);
+    }
+    return range;
+};
+createRange(4,8);
 
 
 
