@@ -94,8 +94,20 @@ var list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 ```
 
 ```
+for (var i = 0; i < list.length; i++) {
+    var selectOdd = function(x) {
+    if (x % 2 === 1) {
+    return list[i];
+    } else {
+    return false;
+    }
+}
+};
+ list.call(selectOdd);
 
-
+var doubleEach = function() {
+    var double = list.map(list[i] * 2)
+}
 
 
 
