@@ -1,4 +1,4 @@
-#Week 2 Conceptual - NAME: __________________
+#Week 2 Conceptual - NAME: _An Nguyen_
 
 # Looping _/1
 
@@ -14,6 +14,7 @@ while (cursor !== 3) {
 }
 console.log(i);
 ```
+Prints: 0, 1, false, 3 (keeps going because there's no return statement to stop the function after i = 2).
 
 ```
 
@@ -32,6 +33,9 @@ console.log(a);
 ```
 
 ```
+a = "cat" (var a reassigned to equal var b which equals "cat")
+a === "duck"; => false (=== is a comparison operation so a is not reassigned)
+console.log(a); => logs "cat"
 
 ```
 
@@ -48,17 +52,35 @@ var function greet('name') {
 console.log(greet);
 ```
 
+```
+- No quotes on parameter (name)
+- function is incorrectly declared/expressed
+- Need concatenation
+- Need return statement
+- No argument provided
+
+_Correct:_
+
+var greet = function(name) {
+    return "Hello " + name;
+}
+console.log(greet("Liz"));
+
+```
+
 # This and Context _/2
 
 What does 'this' refer to in the global scope?
 
 ```
+- The window 
 
 ```
 
 What does 'this' refer to when a method on an object is invoked?
 
 ```
+- The current object the function is pointing to
 
 ```
 
@@ -67,6 +89,11 @@ What does 'this' refer to when a method on an object is invoked?
 What is the difference between referencing and invoking a function?
 
 ```
+Referencing (no parentheses): 
+myFunction; 
+
+Invoking (calls on a function so that it runs): 
+myFunction(); 
 
 ```
 
@@ -75,6 +102,8 @@ What is the difference between referencing and invoking a function?
 What is a method?
 
 ```
+In-built objects in JS that are often functions. 
+
 ```
 
 # DOM _/1
@@ -82,6 +111,12 @@ What is a method?
 What is the difference between 'textContent' and 'innerHTML'? 
 
 ```
+.textContent = refers to the text within html tags
+<p>_Text Content Here_</p>
+
+.innerHTML = refers to the html tags and text content within an element
+_<p>Text and tags here</p>_
+
 ```
 
 # Scope _/3
@@ -100,16 +135,20 @@ console.log(dog);
 console.log(fish);
 console.log(cat);
 ```
+```
+`console.log(dog)` will log  _mck_
+`console.log(fish)` will log _Hari_
+`console.log(cat)` will log  _undefined_
 
-`console.log(dog)` will log  ____
-`console.log(fish)` will log ____
-`console.log(cat)` will log  ____
+```
 
 # CSS _/1
 
 What is the difference between the display properties 'block' and 'inline-block'?
 
 ```
+display: block; => element starts on a new line
 
+display: inline-block; => elements will be on the same line but can be styled as block elements
 
 ```

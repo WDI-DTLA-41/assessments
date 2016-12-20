@@ -27,22 +27,18 @@ Create an object with key value pairs for `name` - a string, `isAlive` - a boole
 Assign the object to the variable `user`
 
 ```
-
 var user = {
     'name': 'Steve',
     'isAlive': false,
     'hobbies': ['groan', 'eat brains']
-}
-
+};
 
 ```
 
 Add 'golf' to the `user`'s `hobby` array.
 
 ```
-
 user.hobbies = "golf";
-
 
 ```
 
@@ -57,12 +53,10 @@ sayHello('Mer') // "Hello Mer!"
 ```
 
 ```
-
 var sayHello = function(name) {
     return "Hello " + name + "!";
 }
 sayHello('Mer');
-
 
 ```
 
@@ -84,7 +78,6 @@ var createRange = function(min, max) {
     }
 }
 createRange(4,8);
-
 
 ```
 
@@ -125,6 +118,7 @@ thisName();
 
 ```
 
+```
 - Returns "Steve"
 
 - var name would be undefined in the global scope
