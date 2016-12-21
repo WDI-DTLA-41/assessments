@@ -4,7 +4,7 @@
 var list = [1, 2, 3, 4, 5];
 // Remove one from the beginning of the array and add it to the end
 
-var first = list[0];
+// var first = list[0];
 var remove = list.shift();
 var add = list.push(first);
 
@@ -29,7 +29,7 @@ var user = {
 
 
 // Add 'golf' to the `user`'s `hobby` array.
-user.hobbies = "golf"l
+user.hobbies.push("golf");
 
 
 // # Functions
@@ -49,11 +49,20 @@ function sayHello (name) {
 
 // createRange(4, 8) // [4, 5, 6, 7, 8]
 
+var newArray = [];
+
 function createRange (min, max) {
-  for(var i = min; i < max; i++) {
-    return([i]);
+  for(var i = min; i <= max; i++) {
+    // var newArray = [];
+    newArray.push(i);
   }
+  return newArray;
 }
+
+createRange(10, 100)
+
+console.log(createRange)
+console.log(newArray)
 
 
 // # Bonus Callbacks
@@ -66,20 +75,14 @@ function createRange (min, max) {
 // Set the answer to #answer in the DOM.
 
 var list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
 // =================
 // FILTER 1
 // =================
-function filterOdd(value) {
-  return (value % 1 === 0);
-}
-var list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].filter(filterOdd);
-
-// =================
-// FILTER 2
-// =================
-var filter = list.filter(function(element, index, array){
+var filter = list.filter(function(index){
   return (index % 1 === 0);
 });
+
 // =================
 // MAP
 // =================
@@ -87,6 +90,7 @@ var filter = list.filter(function(element, index, array){
 var map = filter.map(function(x){
   return x * 2;
 })
+
 // =================
 // REDUCE
 // =================
@@ -106,5 +110,5 @@ var sum = map.reduce(function(a, b) {
 var name;                 // global scope
 function thisName(){
   var name = "another name in the local scope";
-  returns name;                                     // returns local scope becuase it is inside the function
+  return name;                                     // returns local scope becuase it is inside the function
 }
