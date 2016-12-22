@@ -23,7 +23,7 @@ var add = list.push(first);
 var user = {
   name : "alex",
   isAlive : true,
-  hobbies : ["drawing", "smoking", "drinking", "hiking", "pets"]
+  hobbies : ["drawing", "smoking", "hiking", "pets"]
 };
 
 
@@ -79,8 +79,8 @@ var list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // =================
 // FILTER 1
 // =================
-var filter = list.filter(function(index){
-  return (index % 1 === 0);
+var filter = list.filter(function(element){
+  return (element % 1 === 0);
 });
 
 // =================
