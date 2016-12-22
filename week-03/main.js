@@ -49,9 +49,10 @@ function sayHello (name) {
 
 // createRange(4, 8) // [4, 5, 6, 7, 8]
 
-var newArray = [];
+
 
 function createRange (min, max) {
+  var newArray = [];
   for(var i = min; i <= max; i++) {
     // var newArray = [];
     newArray.push(i);
