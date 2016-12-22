@@ -4,8 +4,8 @@
 var list = [1, 2, 3, 4, 5];
 // Remove one from the beginning of the array and add it to the end
 
-list.shift(1);
-list.push(1);
+var a = list.shift();
+list.push(a);
 
 // # Objects
 
@@ -47,11 +47,12 @@ function sayHello(name) {
 // I know this isn't right but I can't get this one
 
 function createRange(min, max){
-  for (i=0; i<array.length; i++){
-    if (array[i] > min && array[i] < max){
-      return array[i];
-    }
+  var range = [];
+  for (i=min; i <= max; i++){
+    range.push(min);
+    min++
   }
+  return range;
 }
 
 
