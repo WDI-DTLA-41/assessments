@@ -3,8 +3,7 @@
 // Given the following array
 var list = [1, 2, 3, 4, 5];
 // Remove one from the beginning of the array and add it to the end
-list.shift();
-list.push(1);
+list.splice(0, 5, 2, 3, 4, 5, 1)
 
 // # Objects
 
@@ -30,7 +29,6 @@ user.hobbies.push('golf');
 
 // sayHello('Mer') // "Hello Mer!"
 var sayHello = function(name) {
-  var name = 'Sally';
   return 'Hello ' + name + '!';
 }
 
@@ -40,8 +38,9 @@ var sayHello = function(name) {
 
 // createRange(4, 8) // [4, 5, 6, 7, 8]
 createRange = function (min, max) {
-  for(var i = min; i < max; i++) {
-    return i;
+  list = [];
+  for(var i = min; i <= max; i++) {
+    list.push(i);
   }
 }
 
@@ -56,9 +55,17 @@ createRange = function (min, max) {
 
 var list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-list.filter(list[i] !% 2)
-list.map(list[i] * 2)
-list.reduce(list.map())
+var oddz = list.filter(function(n) {
+  return n % 2 !=0;
+});
+
+var doublez = oddz.map(function(n) {
+  return n * 2;
+});
+
+var sumz = doublez.reduce(function(n, y) {
+  return n + y;
+});
 
 //Scope
 
