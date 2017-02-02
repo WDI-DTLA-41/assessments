@@ -1,4 +1,4 @@
-# Week 2 Conceptual - NAME: __________________
+# Week 4 Conceptual - NAME: __________________
 
 ## Node
 
@@ -20,7 +20,7 @@ What is the purpose of `module.exports`
 
 ```
 
-What's the difference between client-side and server-side code?
+What are some differences between client-side and server-side code?
 
 ```
 
@@ -44,11 +44,18 @@ Host: ______
 
 If everything worked the server should respond with what status code?
 
+```
+
+```
+
 A user clicks a link to "http://www.newyorktimes.com", the page loads but the URL says 
 "http://nytimes.com".
 
 What happened?
 
 ```
+
+
+
 
 ```

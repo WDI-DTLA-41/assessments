@@ -1,4 +1,4 @@
-#Week 2 Mechanical - NAME: __________________
+#Week 4 Mechanical - NAME: __________________
 
 # Node
 
@@ -31,7 +31,7 @@ function one(next) {
 }
 ```
 
-Write the function definition for `two` so that it returns 3
+Write the function definition for `two` so that it adds 1 from one and returns 3
 
 ```
 one(two) // 3
@@ -42,21 +42,18 @@ one(two) // 3
 
 ```
 
-Write a function called `parseUrl` that returns an object so that given a path such as:
+Write a function called `parseQuery` that returns an object so that given a queryString such as:
 
-'/list?sort=price&page=3&page2=4&sortOrder=dsc'
+'sort=price&page=3&page2=4&sortOrder=dsc'
 
-It returns an object with the keys path and query:
+It returns an object:
 
 ```
 {
-  path: 'list',
-  query: {
-    Sort: 'price',
+    sort: 'price',
     page: '3',
     page2: '4',
-    SortOrder: 'dsc'
-  }
+    sortOrder: 'dsc'
 }
 ```
 
