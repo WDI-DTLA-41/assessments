@@ -1,158 +1,224 @@
-Week 1 Assessment - Name ________ _/21
+Week 1 Assessment - Name _An Nguyen_ _/21
 
 ### Bash _/3
 
-Write out the bash commands to create a new director called 'project'
+_Write out the bash commands to create a new director called 'project'_
 
 ```
 
-```
+mkdir project 
 
-Write out the bash commands to change directories into 'project'
-
-```
 
 ```
 
-Write out the bash commands to create 'index.html' and 'style.css' files
+_Write out the bash commands to change directories into 'project'_
 
 ```
+
+cd project
+
+
+```
+
+_Write out the bash commands to create 'index.html' and 'style.css' files_
+
+```
+
+touch index.html style.css
+
 
 ```
 
 ### Git _/4
 
-Write out the git commands to initialize a git repository
+_Write out the git commands to initialize a git repository_
 
 ```
 
-```
+git init 
 
-Write out the git commands to add 'index.html' and 'style.css' to staging
-
-```
 
 ```
 
-Write out the git commands to commit your changes
+_Write out the git commands to add 'index.html' and 'style.css' to staging_
 
 ```
 
+git add . 
+or 
+git index.html style.css
+
+
 ```
 
-Write out the bash commands to remove the git repository
+_Write out the git commands to commit your changes_
 
 ```
+
+git commit -m "<message>"
+
+
+```
+
+_Write out the bash commands to remove the git repository_
+
+```
+
+rm -rf .git 
+
 
 ```
 
 ### Variables _/2
 
-Declare a variable 'captain' and assign the string 'Ahab' to it
+_Declare a variable 'captain' and assign the string 'Ahab' to it_
 
 ```
 
+var captain = "Ahab";
+
+
 ```
 
-Use string concatentation and the 'captain' variable to form the phrase 'Oh Ahab, my Ahab!';
+_Use string concatentation and the 'captain' variable to form the phrase 'Oh Ahab, my Ahab!';_
+
+```
+
+"Oh " + captain + ", my " + captain + "!";
+
+
+```
+
 
 ### Conditionals _1
 
-Write a conditional statement that console.log's 'SOS!' if there are more souls than life rafts.
+_Write a conditional statement that console.log's 'SOS!' if there are more souls than life rafts._
 
-```
 var souls = 3;
 var lifeRafts = 2;
 
+```
 
-
-
+if (souls > lifeRafts) {
+    console.log("SOS!");
+}
 
 
 ```
 
 ### Arrays _/4
 
-Declare and assign a variable 'weekend' to an array containing the string 'Friday'
+_Declare and assign a variable 'weekend' to an array containing the string 'Friday'_
 
 ```
 
-```
-
-Add the strings 'Saturday' and 'Sunday' to 'weekend'
-
-```
+var weekend = ['Friday'];
 
 
 ```
 
-How would you access 'Saturday'?
+_Add the strings 'Saturday' and 'Sunday' to 'weekend'_
 
 ```
 
+weekend.push('Saturday', 'Sunday');
+
+
 ```
 
-Remove 'Friday' from 'weekend'
+_How would you access 'Saturday'?_
 
 ```
+
+weekend[1];
+
+
+```
+
+_Remove 'Friday' from 'weekend'_
+
+```
+
+weekend.slice(0);
+
 
 ```
 
 ### JavaScript Objects _/3
 
-Declare and assign a variable 'brain' to an object literal with a property of 'energyLevel' that points to the number 10
+_Declare and assign a variable 'brain' to an object literal with a property of 'energyLevel' that points to the number 10_
 
 ```
 
+var brain = {
+    energyLevel: 10
+    }
 
 
 ```
 
-Access the value 10 in 'brain'
+_Access the value 10 in 'brain'_
 
 ```
 
+brain.energyLevel;
+
+
 ```
 
-Add a 'dream' property to 'brain' that points to the string 'Electric Sheep'
+_Add a 'dream' property to 'brain' that points to the string 'Electric Sheep'_
 
 ```
+
+brain.dream = "electric sky";
 
 ```
 
 ### Functions _/2
 
-Write a function to calculate and return the area of a rectangle.
-(The area of a rectangle is the product of its length and width)
+_Write a function to calculate and return the area of a rectangle._
+_(The area of a rectangle is the product of its length and width)_
 
 ```
 
-
+var area = function(l, w) {
+    var a = l * w;
+    return a;
+}
 
 
 ```
 
-Invoke the function with 3 and 4 as arguments and assign the returned value to a variable
+_Invoke the function with 3 and 4 as arguments and assign the returned value to a variable_
 
 ```
+
+area(3, 4);
+
 
 ```
 
 ### HTML _/1
 
-Write an anchor tag that links to 'http://www.google.com' with the classes 'search-engine' and 'preferred' and the text content 'Google'
+_Write an anchor tag that links to 'http://www.google.com' with the classes 'search-engine' and 'preferred' and the text content 'Google'_
 
 ```
+
+<a href="http://www.google.com" class="search-engine preferred">Google</a>
+
 
 ```
 
 ### CSS _/1
 
-Write a CSS rule-set that would target elements with the class 'active' and set their background colors to 'pink' and give them a margin of 5 pixels.
+_Write a CSS rule-set that would target elements with the class 'active' and set their background colors to 'pink' and give them a margin of 5 pixels._
 
 ```
 
-
+.active {
+    background: pink;
+    margin: 5px;
+}
 
 
 ```
