@@ -1,3 +1,9 @@
+# Mechanical pt 1.
+
+The following questions are all available in main.js
+
+Solve them there as well!
+
 # Arrays
 
 Given the following array 
@@ -44,6 +50,8 @@ sayHello('Mer') // "Hello Mer!"
 
 
 
+
+
 ```
 
 Define a function `createRange` that takes `min` and `max` as parameters and returns an array with all the numbers
@@ -55,6 +63,8 @@ createRange(4, 8) // [4, 5, 6, 7, 8]
 ```
 
 ```
+
+
 
 
 
@@ -75,6 +85,24 @@ var list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 ```
 
 
+
+
+
+
+
+
+```
+
+#Scope
+
+Create a variable in the global scope called name, then write a function called thisName, which creates another variable inside the function called name, and returns name. What do you think the output would be when you invoke the function thisName? What happens to the variable name in the global scope?
+
+```
+
+
+
+
+```
 
 
 

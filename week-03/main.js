@@ -42,3 +42,11 @@ var list = [1, 2, 3, 4, 5];
 // Set the answer to #answer in the DOM.
 
 var list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+//Scope
+
+/* Create a variable in the global scope called name, then write a function called thisName, 
+   which creates another variable inside the function called name, and returns name. What do 
+   you think the output would be when you invoke the function thisName? What happens to the variable 
+   name in the global scope?
+*/
